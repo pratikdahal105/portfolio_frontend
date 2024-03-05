@@ -1,7 +1,7 @@
 // SignUp.js
 import React, { useState } from 'react';
 import axios from '../../api/Axios';
-import styles from './SignUp.module.css';
+import styles from './Signup.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 
 const SIGNUP_URL = '/register';

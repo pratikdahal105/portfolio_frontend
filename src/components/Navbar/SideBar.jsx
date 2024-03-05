@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import styles from './Sidebar.module.css';
+import styles from './SideBar.module.css';
 import { IconContext } from 'react-icons';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import axios from '../../api/Axios';

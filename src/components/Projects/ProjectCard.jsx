@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaLink, FaGithub } from 'react-icons/fa';
 import { getImageUrl } from '../../utils';
-import styles from './projectCard.module.css';
+import styles from './ProjectCard.module.css';
 import ProjectModal from './ProjectModal';
 
 export const ProjectCard = ({ project }) => {
