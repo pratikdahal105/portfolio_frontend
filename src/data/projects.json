@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Toothpick Dental",
+    "imageSrc": "projects/toothpick.png",
+    "description": "<p>As a backend developer at Toothpick Dental, I played a pivotal role in enhancing operational efficiency and user experience by developing a comprehensive system tailored to the needs of dental nurses and practices. Collaborating closely with dental professionals, I gained deep insights into their requirements, allowing me to optimize our web application for seamless workflow management.</p><p>Key contributions include:</p><ul><li>System Development: Spearheaded the development of a robust system aimed at optimizing data tracking and staff scheduling for Toothpick Dental.</li><li>Dental Nurse Subsystem: Engineered a dedicated subsystem empowering dental nurses to effortlessly post their availability and record working hours.</li><li>Practice Subsystem: Designed and implemented a user-friendly interface for dental practices to efficiently request staff resources from Toothpick Dental.</li></ul><br/><p>My role demanded a blend of technical expertise and strong communication skills to effectively bridge the gap between user requirements and system functionality. Through collaborative efforts with stakeholders, I successfully delivered a solution that streamlined operations and improved user satisfaction for both dental professionals and Toothpick Dental alike.</p>",
+    "skills": ["React", "PHP", "Laravel", "MySQL"],
+    "demo": "https://www.toothpickdentalstaff.com/"
+  },  
+  {
+    "title": "The Timeless Tutor",
+    "imageSrc": "projects/ttt.png",
+    "description": "<p>This is a project made to learn the latest languages by building an app.</p><p>As the backend developer at Timeless Tutor, my responsibilities included:</p><ul><li>Containerization of code in Docker for efficient deployment.</li><li>Maintaining a CI/CD pipeline using Jenkins for automated testing and deployment.</li><li>Designing the system architecture to ensure scalability and reliability.</li><li>Backend development, implementing features and functionalities.</li><li>Version control management using Git for effective collaboration.</li><li>Database design and management for efficient data storage and retrieval.</li></ul><br/><p>The project resulted in a live mentorship app where users can register as mentors or mentees. Mentorship groups can be created or joined, facilitating real-time chat discussions and group calls.</p>",
+    "skills": ["React", "Django", "PostgresSQL", "Redis"],
+    "demo": "https://thetimelesstutor.com/"
+  },  
+  {
+    "title": "Evo Store",
+    "imageSrc": "projects/evo.png",
+    "description": "<p>At Pagoda Labs, I played a crucial role in maintaining and enhancing Evo Store, one of Nepal's most renowned online electronic stores. As a key member of the team, I was responsible for adding new features and optimizing the site to ensure an exceptional user experience.</p><p>My responsibilities included:</p><ul><li>Regularly meeting with clients to gather requirements and understand their needs.</li><li>Implementing changes to the site based on client feedback and requirements.</li><li>Optimizing features such as payment integration, quick checkout carts, and more to enhance functionality and user satisfaction.</li></ul><br/><p>Through my efforts, Evo Store continued to thrive as a leading online destination for electronic products in Nepal.</p>",
+    "skills": ["PHP", "Open Cart", "Javascript"],
+    "demo": "https://evostore.com.np/"
+  }
+]

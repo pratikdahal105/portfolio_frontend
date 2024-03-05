@@ -1,0 +1,73 @@
+.contactSection {
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.contactTitle {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  align-items: center; /* Center items horizontally */
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Align form items in a column */
+  max-width: 500px;
+  width: 100%;
+  padding: 20px; /* Add some padding */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+input,
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px; /* Standard font size for inputs */
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px; /* Adjust the font size as needed */
+  opacity: 1; /* Fix for inconsistent placeholder opacity in different browsers */
+}
+
+
+button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.9s ease;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  form {
+    margin: 0; /* Add margin on small screens */
+    padding: 0;
+    width: 90%;
+  }
+}

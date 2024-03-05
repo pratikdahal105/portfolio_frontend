@@ -1,0 +1,18 @@
+{
+    "contactInformation": {
+      "email": "pratikdahal105@gmail.com"
+    },
+    "socialLinks": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/pratik-dahal/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/pratikdahal105",
+        "icon": "FaGithub"
+      }
+    ]
+  }
+  

@@ -1,0 +1,26 @@
+[
+  {
+    "organisation": "London Metropolitan University",
+    "startDate": "2016",
+    "endDate": "2019",
+    "experiences": "Bachelors In Computing",
+    "description": "Studied various subjects related to computer science including algorithms, data structures, software engineering, and more.",
+    "imageSrc": "education/lmu.jpg"
+  },
+  {
+    "organisation": "Leeds Beckett University",
+    "startDate": "2019",
+    "endDate": "2021",
+    "experiences": "Masters in Science of Computing and Information Technology",
+    "description": "Focused on advanced topics in computing such as artificial intelligence, machine learning, and Project Management.",
+    "imageSrc": "education/lbu.jpg"
+  },
+  {
+    "organisation": "Conestoga College",
+    "startDate": "Sep, 2022",
+    "endDate": "Dec, 2023",
+    "experiences": "Web Development",
+    "description": "Learned front-end and back-end web development technologies including .Net, C++, JavaScript, Node.js, and React.",
+    "imageSrc": "education/conestoga.png"
+  }
+]

@@ -1,0 +1,90 @@
+.container {
+  position: relative;
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 73px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--color-text);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.education {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.educationItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.educationItem img {
+  width: 50px;
+}
+
+.educationItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.educationItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.educationItemDetails p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+  display: block; /* This ensures the description appears as a block element */
+}
+
+@media screen and (max-width: 830px) {
+  .education {
+    width: 100%;
+    gap: 9px;
+  }
+
+  .container {
+    margin: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .educationItem {
+    flex-direction: column;
+  }
+}

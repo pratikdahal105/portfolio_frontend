@@ -1,0 +1,37 @@
+[
+  {
+    "organisation": "Freelance",
+    "location": "Waterloo, ON",
+    "date": "Sep 2019 - Present",
+    "title": "Fullstack Developer",
+    "description": [
+      "Developed bilingual website for Japanese manpower company, including custom content management system for seamless updates in Japanese and English.",
+      "Created mentor-mentee web application as backend developer using Django and Python, gaining experience in Docker, CI/CD pipelines with Jenkins, and real-time messaging with asynchronous programming and Socket.IO.",
+      "Enhanced skills and knowledge base through diverse projects, fueling passion for innovative solutions meeting diverse client needs."
+    ]
+  },
+  {
+    "organisation": "Toothpick Dental Staff",
+    "location": "Reading, UK",
+    "date": "Dec 2019 - Sep 2022",
+    "title": "Back End Developer",
+    "description": [
+      "Spearheaded development of robust system optimizing data tracking and staff scheduling for dental nurses and practices.",
+      "Engineered dedicated subsystem for dental nurses to post availability and record working hours, enhancing productivity.",
+      "Designed user-friendly interface for dental practices to request staff resources, fostering transparency and trust in staffing process.",
+      "Demonstrated blend of technical expertise and strong communication skills to bridge gap between user requirements and system functionality."
+    ]
+  },
+  {
+    "organisation": "Pagoda Labs",
+    "location": "Kathpandu, NP",
+    "date": "Aug 2021 - Dec 2021",
+    "title": "Web Developer",
+    "description": [
+      "Collaborated within cross-functional team to enhance existing systems, ensuring optimal performance and client satisfaction.",
+      "Led development of comprehensive donation application facilitating users to create campaigns and make contributions seamlessly.",
+      "Engaged directly with clients to understand needs and translate them into actionable system improvements, fostering strong client relationships.",
+      "Demonstrated commitment to excellence in system optimization and client satisfaction through impactful contributions despite brief tenure."
+    ]
+  }
+]

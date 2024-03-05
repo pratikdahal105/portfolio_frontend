@@ -1,0 +1,54 @@
+.scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(52, 152, 219, 0.6); /* Translucent background */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px; /* Increased size */
+    height: 50px; /* Increased size */
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 3s, transform 3s;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollToTopButton.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scrollToTopButton:hover {
+    animation: bounce 1s ease infinite;
+}
+
+.arrow {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    width: 15px; /* Adjusted arrow size */
+    height: 15px; /* Adjusted arrow size */
+    margin-top: 1px; /* Centering the arrow vertically */
+    margin-left: 1px; /* Centering the arrow horizontally */
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}

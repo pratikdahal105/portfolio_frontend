@@ -1,0 +1,12 @@
+@import "../../vars.css";
+
+.loading-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to full viewport height */
+  }
+  
+  .loading-container {
+    text-align: center; /* Center content horizontally */
+  }

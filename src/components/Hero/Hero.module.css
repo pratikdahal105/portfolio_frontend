@@ -1,0 +1,174 @@
+@import '../../vars.css';
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+    height: 100%; /* Set a fixed height */
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.description {
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+    width: 80%;
+}
+
+.contactBtn {
+    /* background-color: var(--color-primary); */
+    color: var(--color-text);
+    padding: 17px 26px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: 0 0 4 0 rgba(0, 0, 0, 0.25);
+}
+
+.heroImgContainer {
+    position: relative;
+    width: 90vw; /* Set width relative to viewport width */
+    height: 20vw; /* Set height relative to viewport width */
+
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+    margin-right: 20px; /* Adjust this margin as needed */
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    background: radial-gradient(circle at center, #d816c8, #7006bd);
+}
+
+
+
+
+.heroImg {
+    width: auto;
+    height: 100%;
+    min-width: 100%; /* Ensure the image covers the container horizontally */
+    object-fit: contain; /* Ensure the image covers the container without cropping */
+    position: absolute;
+    bottom: -0%; /* Adjust the value to position the image lower */
+    left: 50%;
+    transform: translateX(-50%); /* Center the image horizontally */
+}
+
+
+
+
+
+
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: -10vw;
+    border: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px; /* Ensure a minimum height */
+    top: 246px;
+    right: -25vw;
+    border: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    
+    .content {
+        align-items: center;
+    }
+
+    .title {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .heroImgContainer {
+        width: 80vmin; /* Adjust width for smaller screens */
+        height: 80vmin; /* Adjust height for smaller screens */
+        margin-bottom: 33px;
+    }
+    
+    .bottomBlur {
+        width: 100%; /* Use 100% width to cover the entire viewport */
+        min-width: 0; /* Reset min-width */
+        right: 0; /* Adjust positioning */
+    }
+}
+
+@media screen and (min-width: 621px) and (max-width: 1660px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    
+    .content {
+        align-items: center;
+    }
+
+    .title {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .heroImgContainer {
+        width: 50vmin; /* Adjust width for medium-sized screens */
+        height: 50vmin; /* Adjust height for medium-sized screens */
+        margin-bottom: 33px;
+    }
+    
+    .bottomBlur {
+        width: 100%; /* Use 100% width to cover the entire viewport */
+        min-width: 0; /* Reset min-width */
+        right: 0; /* Adjust positioning */
+    }
+}
